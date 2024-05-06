@@ -1,0 +1,69 @@
+h1 {
+  color: #1B262C;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal
+}
+
+h2 {
+  color: #0F4C75;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1, h2, #button {text-align: center}
+
+body {
+  color:rgb(54, 48, 48);
+  background-color: rgb(231, 231, 231);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+img {
+  border-radius: 50%
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card #button {
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #3282B8;
+  color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba (0,0,0,0.1);
+  transition: 0.3s ease;
+}
+.card #button:hover {background-color: #0F4C75}
+
+.card {
+  background-color: #f9f9f9f9;
+  padding: 10px;
+  width: 600px;
+  margin: 25px auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center
+}
+
+.social_media {
+display: inline;
+font-size: 45px;
+color: #BBE1FA;
+list-style-type: none;
+}
+
+.social_media:hover {background-color: #0a3755}
